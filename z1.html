@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title id = "title">Вопросы</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <LINK REL="stylesheet" TYPE="text/css" HREF="styles/style_form.css">
+ <LINK REL="stylesheet" TYPE="text/css" HREF="styles/button_st.css"> 
+  <script src="scripts/timer.js">
+        alert("Файл, содержащий скрипт, не подключился!");
+  </script>
+   <script src="scripts/logic.js">
+        alert("Файл, содержащий скрипт, не подключился!");
+  </script>
+</head>
+    <body  onload = "buttontask1(); PrintTimer();"> 
+        <BODY  bgcolor = #AEDCE8>
+        <center>
+        <div id="app"></div></center>
+        <div>
+            <form class="decor" id = "fform">
+                <div class="form-inner">
+                    <legend id = "leg"><h3>Задание №1</h3></legend>
+                    <textarea  readonly rows = "10" id ="question" ></textarea>
+                    <div class = "g" id = "variant_answer"></div>
+                </div>
+            </form>
+        </div>
+        <center>
+    <p class = "buttonpos"> 
+        <input type = "button" value = "1" class = "button27" id = "bt1" 
+               onClick = "buttontask1()">
+        <input type = "button" value = "2" class = "button27" id = "bt2" 
+               onClick = "buttontask2()">
+        <input type = "button" value = "3" class = "button27" id = "bt3" 
+               onClick = "buttontask3()">
+        <input type = "button" value = "4" class = "button27" id = "bt4" 
+               onClick = "buttontask4()">
+        <input type = "button" value = "5" class = "button27" id = "bt5" 
+               onClick = "buttontask5()">
+        <input type = "button" value = "6" class = "button27" id = "bt6" 
+               onClick = "buttontask6()">
+        <input type = "button" value = "7" class = "button27" id = "bt7" 
+               onClick = "buttontask7()">
+        <input type = "button" value = "8" class = "button27" id = "bt8" 
+               onClick = "buttontask8()">
+        <input type = "button" value = "9" class = "button27" id = "bt9" 
+               onClick = "buttontask9()">
+        <input type = "button" value = "10" class = "button27" id = "bt10"  
+               onClick ="buttontask10()">
+        <input type = "button" value = "Завершить!" class = "gradient-button"  
+               onClick ="lastper()">
+        </center>
+    </p>
+</body>
+</html>

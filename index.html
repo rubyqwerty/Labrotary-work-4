@@ -1,0 +1,57 @@
+<!--
+Грунин Георгий Алексеевич 21ВП2 вариант 7
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Опросник</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <LINK REL="stylesheet" TYPE="text/css" HREF="styles/style1.css">
+        <script src="scripts/script.js">
+        alert("Файл, содержащий скрипт, не подключился!");
+        </script>
+        <script src="scripts/timer.js">
+        alert("Файл, содержащий скрипт, не подключился!");
+        </script>
+    </head>
+    <body><center>
+        <BODY  bgcolor = #AEDCE8>
+        <div class = "baseall">
+        <p class = "heading">
+        <e1>
+            Labrotary work #4<br>
+            Variant #7<br>
+            Опросник
+            </e1>
+        <br>
+        <e2>
+            Предмет «Экология». Тестирование по теме «Мировые ресурсы 
+полезных ископаемых».
+        </e2>
+        </p>
+        <p class = "info">
+            <e2>Входные данные:<br><br></e2>
+            <label class="custom-field">
+                <e2>Input name</e2> 
+                <input   id = "name"  maxlength="10" placeholder="Имя"/>
+            </label>
+            <br>
+            <br>
+            <label class="custom-field">
+                <e2>Input time</e2> 
+                <input  id = "time"  maxlength="2" placeholder="Время в мин."/>
+            </label>
+        </p>
+        <br>
+        <button value = "Перемешать вопросы" id ="bb1" 
+               class = "gradient-button" onClick="shuffle_tasks()" >Перемешать вопросы</button>
+        <button value = "Перемешать ответы" id ="bb2" 
+               class = "gradient-button" onClick="shuffle_answer()" >Перемешать ответы</button>
+        
+        <p><label class="custom-field" id = "mass"></label></p>
+        <input type="button" value = "Начать тест!" id ="per" 
+               class = "belize-hole-flat-button" onClick="perehod()" >
+        </div>
+    </body>
+</html>
